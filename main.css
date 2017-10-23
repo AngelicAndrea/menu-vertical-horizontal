@@ -1,0 +1,44 @@
+body{
+	font-family: sans-serif;
+}
+nav{
+	width: 200px;
+}
+ul{
+	/*outline: 1px solid blue;*/
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	line-height: 30px;
+}
+li{
+	/*outline: 1px solid pink;*/
+	background: #F0F0F0;
+}
+a{
+	/*outline: 1px solid red;*/
+	display: block;
+	text-decoration: none;
+	color: #000;
+	padding-left: 10px;
+}
+
+a:hover{ /*Selecciona y el estilo de un enlace al pasar el ratón sobre ella: */
+	background: #C0C0C0;
+}
+a:active { /*al hacer clic me cambia de color, no solo se puede usar en enlaces */
+	background: #383838;
+	color: #fff;
+}
+ul li:first-child{
+	background: #FAB11F;
+}
+ul li:first-child a{
+	color: #fff;
+}
+ul li:first-child a:hover{
+	color: #000;
+}
+ul li:first-child a:active{
+	color: #fff;
+}
